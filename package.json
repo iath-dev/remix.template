@@ -16,7 +16,8 @@
     "@remix-run/serve": "^2.11.2",
     "isbot": "^4.1.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "remix.template": "file:"
   },
   "devDependencies": {
     "@remix-run/dev": "^2.11.2",
@@ -32,6 +33,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "postcss": "^8.4.38",
+    "prettier": "^3.3.3",
     "tailwindcss": "^3.4.4",
     "typescript": "^5.1.6",
     "vite": "^5.1.0",
@@ -39,5 +41,11 @@
   },
   "engines": {
     "node": ">=20.0.0"
-  }
+  },
+  "version": "1.0.0",
+  "description": "- 📖 [Remix docs](https://remix.run/docs)",
+  "main": "postcss.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
